@@ -1,0 +1,188 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Estonia';
+    src: url('/fonts/Estonia-Regular.eot');
+    src: local('Estonia Regular'), local('Estonia-Regular'),
+        url('/fonts/Estonia-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Estonia-Regular.woff2') format('woff2'),
+        url('/fonts/Estonia-Regular.woff') format('woff'),
+        url('/fonts/Estonia-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.pangolin-regular {
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html, body{
+    min-height: 100%;
+    background-color: rgba(46, 45, 45, 0.349);
+    font-size: 15px;
+    padding: 5px; 
+    
+}
+
+h1 {
+    font-family: Estonia, sans-serif;
+    text-align: center;
+    color: #280465;
+    padding: 5px;
+    margin: 10px;
+    text-shadow: 1px 1px 2px #1f1e1f;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    color: #280465;
+    text-shadow: 1px 1px 2px #1f1e1f;
+}
+
+.wrapper{
+    height: 100vh;
+    background-color: #fff;
+    padding: 5px;  
+    background-image: url("img/ava7patterns_pattern_1372.png");
+    position: relative;
+    
+}
+header {
+    margin: 5px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: calc(100% - 10px);
+    text-align: center;
+    font-size: 12px;
+    background: rgb(187,186,200);
+    background: linear-gradient(90deg, rgba(187,186,200,1) 0%, rgba(205,205,212,1) 35%, rgba(196,211,214,1) 100%);
+    position: sticky;
+    left: 7px;
+    top: 7px;
+    padding-bottom: 10px;
+}
+
+header li{
+    display: inline-block; 
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+header li a{
+    display: inline-block; 
+    font-family: "Pangolin";
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+a:hover{
+    color: rgb(248, 4, 4);
+    background-color: #ccc;
+    
+}
+
+main{
+    position: relative;
+    width: calc(100% - 7px);
+    margin-left: 3px;
+    height: calc(83% - 5px);
+    overflow: auto;
+    border: 2px solid black; 
+    background: rgb(187,186,200);
+    background: linear-gradient(90deg, rgba(187,186,200,1) 0%, rgba(205,205,212,1) 35%, rgba(196,211,214,1) 100%);
+    /* height: calc( 100vh - 140px); */
+}
+.video_block{
+    height: 100%;
+    opacity: 0.3;
+    object-fit: cover;
+}
+.predvideo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    word-spacing: 8px;
+    line-height: 30px;
+    padding: 10px;
+    z-index: 10;
+    overflow: auto;
+}
+video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;   
+    object-fit: cover;
+    z-index: 5;
+}
+.content{
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+}
+section {
+    display: inline-block;
+    width: 100%;
+    padding: 7px;
+    margin-left: -8px;
+    margin-bottom: -9px;
+    border: 2px solid black; 
+    border-radius: 3px;
+    overflow: auto;
+}
+img {
+    width: 10%;
+    height: auto;
+    border: 2px solid grey;
+    border-radius: 5px;
+    object-fit: fill;
+    float: left;
+    transition: 1s;
+}
+
+img:hover {
+    transform: scale(1.5);
+}
+
+p {
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    text-indent: 20px;
+    margin: 5px;
+}
+
+p:first-letter {
+    text-transform: uppercase;
+}
+.my_icon{
+    font-size: 20px;
+    color:#280465;
+}

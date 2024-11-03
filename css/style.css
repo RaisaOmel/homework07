@@ -72,8 +72,8 @@ header {
     background: rgb(187,186,200);
     background: linear-gradient(90deg, rgba(187,186,200,1) 0%, rgba(205,205,212,1) 35%, rgba(196,211,214,1) 100%);
     position: sticky;
-    left: 7px;
-    top: 7px;
+    left: 5px;
+    top: 5px;
     padding-bottom: 10px;
 }
 

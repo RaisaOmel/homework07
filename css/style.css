@@ -161,22 +161,22 @@ section {
 img {
     width: 10%;
     height: auto;
-    border: 2px solid grey;
-    border-radius: 5px;
-    object-fit: fill;
+    padding: 10px;
+    object-fit: cover;
     float: left;
-    transition: 1s;
+    transition: width 0.6s cubic-bezier(0, 0, 1, 1) 500ms;
 }
 
 img:hover {
-    transform: scale(1.5);
+    width: 20%;
 }
 
 p {
     font-family:'Times New Roman', Times, serif;
     text-align: justify;
     text-indent: 20px;
-    margin: 5px;
+    margin: 15px;
+    padding-right: 15px;
 }
 
 p:first-letter {

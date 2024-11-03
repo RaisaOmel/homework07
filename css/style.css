@@ -102,20 +102,22 @@ a:hover{
 
 main{
     position: relative;
-    width: calc(100% - 7px);
-    margin-left: 3px;
+    width: calc(100% - 10px);
+    margin-left: 5px;
     height: calc(83% - 5px);
     overflow: auto;
     border: 2px solid black; 
     background: rgb(187,186,200);
     background: linear-gradient(90deg, rgba(187,186,200,1) 0%, rgba(205,205,212,1) 35%, rgba(196,211,214,1) 100%);
     /* height: calc( 100vh - 140px); */
+    padding: 5px;
 }
 .video_block{
     height: 100%;
     opacity: 0.3;
     object-fit: cover;
-}
+}    
+
 .predvideo{
     position: absolute;
     left: 0;
@@ -150,11 +152,11 @@ video{
 }
 section {
     display: inline-block;
-    width: 100%;
+    width: calc(100% + 14px);
     padding: 7px;
-    margin-left: -8px;
-    margin-bottom: -9px;
-    border: 2px solid black; 
+    margin: 5px 0 -9px -10px;
+    border-top: 2px solid black; 
+    border-right: 2px solid black; 
     border-radius: 3px;
     overflow: auto;
 }
